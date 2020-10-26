@@ -5,6 +5,10 @@
 2. create a method that will pick up the onClick event on the button
 3. this method is to draw a random quote from the quotes table and display it
 4. create a method that allows you to add your own quotes to the table
+- BEM
+- REACT
+- CSS
+- metodology BEM
 
 # Getting Started with Create React App
 
