@@ -1,38 +1,62 @@
-.App {
+
+.cite {
+  background-color: darkorange;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  padding:10% 20% 20%;
+}
+.draw-quote__box {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.draw-quote__box p {
+  min-height:30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: large;
+}
+.draw-quote__box .draw-quote__quote {
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  font-style: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  padding: 10px;
+  background-color:yellow;
+  font-size: 0.8em;
+  border: 0;
+  border-radius: 0;
+  margin:10px auto;
+  cursor: pointer;
+  font-weight: 700;
+}
+button:focus {
+  outline-width: 0;
+}
+button:hover {
+  background-color: #ffff59;
+}
+.all-quotes {
+  margin: 30px auto;
+}
+.all-quotes ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.all__one-quote {
+  margin: 5px;
+  margin-top: 15px;
+  text-align: center;
+  list-style: none;
+  font-style: italic;
+  width:calc(50% - 10px);
+  padding: 20px;
+  background-color: #ffff59;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.all__author {
+  font-style: normal;
 }

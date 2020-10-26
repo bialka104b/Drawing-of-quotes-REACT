@@ -1,3 +1,11 @@
+### About project
+- The application is to draw a quote and author and display it in the list
+- after entering your quote in the input, add it to the list from which our or other quote is drawn
+1. build a structure in html that will contain a box in which you can place a quote and the author and below the button 
+2. create a method that will pick up the onClick event on the button
+3. this method is to draw a random quote from the quotes table and display it
+4. create a method that allows you to add your own quotes to the table
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
