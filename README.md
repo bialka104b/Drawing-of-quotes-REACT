@@ -8,7 +8,8 @@
 - BEM
 - REACT
 - CSS
-- metodology BEM
+- metodology <br/>
+<img src="./img/Screen.jpg" width="500" height="300">
 
 # Getting Started with Create React App
 
